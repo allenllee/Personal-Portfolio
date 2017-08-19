@@ -1,0 +1,43 @@
+body {
+	background-image: url("images/body_background.jpg");
+	background-size: 1920px;
+}
+
+header {
+	
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+	text-align: center;
+}
+.name_title {
+	height: 1080px;
+}
+.name_title li {
+	list-style: none;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+}
+
+footer {
+	background-color: white;
+	width: 100%;
+}
+
+.social li {
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+.social span {
+	padding: 0px 5px 0px 5px;
+}
+
+.copyright {
+	float: right;
+}
