@@ -1,6 +1,7 @@
 body {
 	background-image: url("images/body_background.jpg");
 	background-size: 1920px;
+	padding: 0px;
 }
 
 header {
@@ -21,18 +22,34 @@ header {
 }
 .name_title {
 	height: 1080px;
+	padding-top: 300px;
 }
 .name_title li {
 	list-style: none;
 	text-align: center;
 	font-size: 100px;
 	color: white;
+	padding: 0px;
 }
 
-.about p {
+.about {
 	height: 500px;
 	background-color: white;
 	padding: 0px;
+}
+
+.about h1 {
+	width: 300px;
+	padding: 100px 0px 0px 100px;
+	font-size: 50px;
+}
+
+.about p {
+	/height: 500px;
+	width: 1000px;
+	/background-color: white;
+	padding: 0px 0px 10px 800px;
+	font-size: 30px;
 }
 
 footer {
@@ -50,10 +67,11 @@ footer {
 	padding: 5px 5px 0px 5px;
 }
 
-.social span {
+.email {
 	padding: 5px 5px 0px 5px;
 }
 
 .copyright {
 	float: right;
+	padding: 5px 5px 0px 5px;
 }
