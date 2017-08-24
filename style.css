@@ -1,11 +1,12 @@
 body {
-	background-image: url("images/body_background.jpg");
+	background-image: url("images/body_background.png");
 	background-size: 1920px;
 	padding: 0px;
+	margin: 0px;
 }
 
 header {
-	
+
 }
 
 .nav {
@@ -14,17 +15,33 @@ header {
 	color: white;
 }
 
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: black;
+}
+
+.nav a:active {
+	color: black;
+}
+
+.nav a:link {
+	color: white;
+}
+
 .nav li {
 	display: inline;
 	list-style: none;
 	text-align: center;
-	/padding: 50% 0% 0% 0%;
 }
 .name_title {
-	height: 1080px;
+	height: 615px;
 	padding-top: 300px;
 }
-.name_title li {
+.name_title li:first-child {
 	list-style: none;
 	text-align: center;
 	font-size: 100px;
@@ -32,46 +49,66 @@ header {
 	padding: 0px;
 }
 
+.name_title li:nth-child(2) {
+	list-style: none;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding: 0px;
+}
+
 .about {
 	height: 500px;
-	background-color: white;
+	background-color: #696969;
 	padding: 0px;
 }
 
 .about h1 {
 	width: 300px;
-	padding: 100px 0px 0px 100px;
+	margin-left: 400px;
+	padding: 100px 0px 0px 0px;
 	font-size: 50px;
+	color: white;
 }
 
 .about p {
-	/height: 500px;
-	width: 1000px;
-	/background-color: white;
-	padding: 0px 0px 10px 800px;
+	width: 800px;
+	float: right;
+	margin-right: 400px;
+	padding: 0px 0px 10px 0px;
+	margin-top: -95px;
 	font-size: 30px;
+	color: white;
 }
 
 footer {
+	/background-color: #ADD8E6;
 	background-color: white;
-	/width: 1895px;
+	margin-top: -16px;
 	width: 100%;
 	height: 30px;
 	padding: 0px;
+}
+
+.social {
+	margin-left: 400px;
 }
 
 .social li {
 	display: inline;
 	list-style: none;
 	float: left;
-	padding: 5px 5px 0px 5px;
+	padding: 5px 5px 0px 0px;
+	color: #696969;
 }
 
 .email {
-	padding: 5px 5px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	color: #696969;
 }
 
 .copyright {
 	float: right;
-	padding: 5px 5px 0px 5px;
+	padding: 5px 400px 0px 5px;
+	color: #696969;
 }
